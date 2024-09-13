@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Ramprawin/devop.git'
+                git 'https://github.com/Ramprawin/devops/blob/master/jenkinsfile'
             }
         }
         stage('Build') {
